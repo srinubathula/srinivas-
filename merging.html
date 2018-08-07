@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>meraging arrays</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var arr1=["a","b","c"];
+		var arr2=[1,2,3];
+		function newList(arr1, arr2) {
+        var list = [];
+        for (var i=0;i<arr1.length;++i) {
+        list.push(arr1[i]);
+        list.push(arr2[i]);
+     }
+        return list;
+     }
+        document.write(newList(arr1,arr2));
+</script>
+</body>
+</html>
